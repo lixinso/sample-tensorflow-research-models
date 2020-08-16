@@ -9,4 +9,4 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 git clone https://github.com/tensorflow/models.git
 
 docker build -f research/object_detection/dockerfiles/tf2/Dockerfile -t od .
-
+docker run -it od
